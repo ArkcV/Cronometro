@@ -55,3 +55,6 @@ body {
     border-radius: 10px;
   }
 
+.paused {
+    color:#f52307;
+}

@@ -25,15 +25,23 @@ function startTime () {
     const el = e.target;
 
     if(el.classList.contains('start')) {
+        console.log('Você clicou em start');
+        time.classList.remove('paused');
+        clearInterval(temp);
         startTime();
     }
     if(el.classList.contains('pause')) {
+        console.log('Você clicou em pause');
+        clearInterval(temp);  
+        time.classList.add('paused');
         clearInterval(temp);
     }
     if(el.classList.contains('reset')) {
+        console.log('Você clicou em reset');
         clearInterval(temp);
         time.innerHTML = "00:00:00";
         seconds = 0;
+        time.classList.remove('paused');
 
     }
  });
