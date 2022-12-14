@@ -4,8 +4,6 @@ Utilizando HTML/CSS/JS/CONSOLE/ foi possível criar esse cronometro que roda dir
 
 [Repository On](https://arkcv.github.io/Cronometro/)
 
-Utilizando HTML/CSS/JS/CONSOLE foi possível criar esse cronometro que roda diretamente em qualquer navegador!
-
 
 - start
 ![Captura de tela de 2022-12-13 16-59-08](https://user-images.githubusercontent.com/104932386/207436566-590b5685-5157-4eef-9117-0b735c48497b.png)
